@@ -44,7 +44,7 @@ class intSet(object):
 
 # Add the appropriate method(s) so that len(s) returns the number of elements in s.
 
-Hint: look through the Python docs to figure out what you'll need to solve this problem.
+# Hint: look through the Python docs to figure out what you'll need to solve this problem.
 
 class intSet(object):
     """An intSet is a set of integers
