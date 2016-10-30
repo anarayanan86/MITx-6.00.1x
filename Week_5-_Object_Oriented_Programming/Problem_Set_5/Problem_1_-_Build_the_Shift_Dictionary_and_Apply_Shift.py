@@ -1,7 +1,7 @@
 # Problem 1 - Build the Shift Dictionary and Apply Shift
 # 20/20 points (graded)
-# The Message class contains methods that could be used to apply a cipher to a string, either to encrypt or to decrypt a message (since for
-# Caesar codes this is the same action).
+# The Message class contains methods that could be used to apply a cipher to a string, either to encrypt or to decrypt a message (since
+# for Caesar codes this is the same action).
 
 # In the next two questions, you will fill in the methods of the Message class found in ps6.py according to the specifications in the
 # docstrings. The methods in the Message class already filled in are:
@@ -12,8 +12,9 @@
 
 # In this problem, you will fill in two methods:
 # Fill in the build_shift_dict(self, shift) method of the Message class. Be sure that your dictionary includes both lower and upper case
-# letters, but that the shifted character for a lower case letter and its uppercase version are lower and upper case instances of the same
-# letter. What this means is that if the original letter is "a" and its shifted value is "c", the letter "A" should shift to the letter "C".
+# letters, but that the shifted character for a lower case letter and its uppercase version are lower and upper case instances of the
+# same letter. What this means is that if the original letter is "a" and its shifted value is "c", the letter "A" should shift to the
+# letter "C".
 
 # If you are unfamiliar with the ordering or characters of the English alphabet, we will be following the letter ordering displayed by
 # string.ascii_lowercase and string.ascii_uppercase:
