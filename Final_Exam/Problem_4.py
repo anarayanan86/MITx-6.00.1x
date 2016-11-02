@@ -1,8 +1,10 @@
 # Problem 4
 # 20.0/20.0 points (graded)
 # You are given the following definitions:
-# A run of monotonically increasing numbers means that a number at position k+1 in the sequence is greater than or equal to the number at position k in the sequence.
-# A run of monotonically decreasing numbers means that a number at position k+1 in the sequence is less than or equal to the number at position k in the sequence.
+# A run of monotonically increasing numbers means that a number at position k+1 in the sequence is greater than or equal to the number at
+# position k in the sequence.
+# A run of monotonically decreasing numbers means that a number at position k+1 in the sequence is less than or equal to the number at
+# position k in the sequence.
 # Implement a function that meets the specifications below.
 
 def longest_run(L):
