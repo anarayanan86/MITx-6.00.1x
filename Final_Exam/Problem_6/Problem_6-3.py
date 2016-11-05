@@ -8,8 +8,8 @@
 # >>> ae.say('the sky is blue')
 # Prof. eric says: It is obvious that I believe that eric says: the sky is blue 
 
-# Change the Professor class definition in order to achieve this. You may have to modify your implmentation for a previous part to get this
-# to work.
+# Change the Professor class definition in order to achieve this. You may have to modify your implmentation for a previous part to get
+# this to work.
 
 # Paste ONLY the Professor class in the box below. Do not leave any debugging print statements.
 
