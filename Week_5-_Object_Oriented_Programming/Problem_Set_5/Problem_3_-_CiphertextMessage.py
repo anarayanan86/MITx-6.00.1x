@@ -49,9 +49,9 @@ class CiphertextMessage(Message):
         Returns: a tuple of the best shift value used to decrypt the message
         and the decrypted message text using that shift value
         '''
-        word_counter = 0
         max_count = 0
         for i in range(26):
+            word_counter = 0
             for j in list(super(CiphertextMessage, self).apply_shift(i).split(' ')):
                 if is_word(self.valid_words, j):
                     word_counter += 1
